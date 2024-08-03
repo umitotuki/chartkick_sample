@@ -2,6 +2,8 @@
 
 <h1>Rugby World Cup Host Countries</h1>
 
+<%= column_chart RugbyWorldCupHostCountry.pluck(:held_at, :total_attendance) %>
+
 <table>
   <thead>
     <tr>
